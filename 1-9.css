@@ -8,7 +8,7 @@
   display: block;
   clear: both;
 }
-main {
+.step-box {
 	width: 960px;
 	margin: 50px auto;
 }
@@ -27,21 +27,21 @@ main {
 
 .step1 {
 	height: 150px;
-  width: 280px;
+  /*width: 280px;*/
     background-image: url(img/flow01.png);
   	background-size: cover;
   	background-position: bottom;
 }
 .step2 {
 	height: 150px;
-  width: 280px;
+  /*width: 280px;*/
     background-image: url(img/flow02.png);
   	background-size: cover;
   	background-position: bottom;
 }
 .step3 {
 	height: 150px;
-  width: 280px;
+  /*width: 280px;*/
     background-image: url(img/flow03.png);
   	background-size: cover;
   	background-position: bottom;
@@ -60,18 +60,26 @@ main {
 
 @media screen and (max-width:768px) {
 .main {
-  width: 768px;
+  width: 100%;
 }
 .step-box {
-  width: 90%;
-  margin:0 auto;
+  width: 100%;
+  margin: 50px 0;
 }
 .image {
+  width: 90%;
+  margin: 0 5%;
   float: none;
   margin-bottom: 20px;
 }
 
-.step {
-  width: 90%;
+.step1 {
+  padding-top: 40%;
+}
+.step2 {
+  padding-top: 40%;
+}
+.step3 {
+  padding-top: 40%;
 }
 }
